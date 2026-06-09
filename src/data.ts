@@ -61,7 +61,7 @@ export const WHY_CHOOSE_US: WhyChooseUsItem[] = [
 ];
 
 export const GALLERY: GalleryItem[] = [
-  { id: '1', src: '/src/assets/images/hero_nutec_house_png_1781022707611.png', alt: 'Modern Nutec House Exterior' },
+  { id: '1', src: 'https://i.ibb.co/qFLFmDPv/1781031854143.png', alt: 'Modern Nutec House Exterior' },
   { id: '2', src: '/src/assets/images/nutec_office_classroom_png_1781022734854.png', alt: 'Nutec Office Classroom' },
   { id: '3', src: '/src/assets/images/nutec_modern_cottage_png_1781022747941.png', alt: 'Nutec Modern Cottage' },
   { id: '4', src: '/src/assets/images/nutec_renovation_png_1781022763984.png', alt: 'Nutec Renovation Addition' },

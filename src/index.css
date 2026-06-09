@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  --color-primary: #0F172A;
+  --color-secondary: #F97316;
+  --color-accent: #FFFFFF;
+  --color-bg-base: #F8FAFC;
+  --color-text-base: #1E293B;
+
+  --radius-card: 12px;
+  --radius-button: 10px;
+  --radius-image: 16px;
+
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 10px -2px rgba(0, 0, 0, 0.03);
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-bg-base text-text-base antialiased;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+    line-height: 1.2;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-10 md:py-[50px] lg:py-[70px];
+  }
+
+  .container-custom {
+    @apply w-full max-w-[1200px] mx-auto px-5;
+  }
+
+  .hero-heading {
+    @apply text-[34px] md:text-[44px] lg:text-[56px] font-bold leading-tight;
+  }
+
+  .section-heading {
+    @apply text-[28px] md:text-[38px] font-bold leading-tight;
+  }
+
+  .paragraph {
+    @apply text-base lg:text-[18px] text-text-base/80;
+  }
+
+  .glass-nav {
+    @apply backdrop-blur-md bg-primary/80;
+  }
+}

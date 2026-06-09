@@ -1,0 +1,8 @@
+{
+  "name": "Nice Nutec Houses",
+  "description": "Premium Nutec house construction services including homes, offices, and custom structures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
